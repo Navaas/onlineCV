@@ -25,3 +25,15 @@ body {
     src: local('Urbanist'),
     url('../fonts/Urbanist-Light.ttf') format('truetype');
 }
+
+@font-face {
+    font-family: 'SplineSansMono';
+    src: local('SplineSansMono'),
+    url('../fonts/SplineSansMono-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Calligraffitti';
+    src: local('Calligraffitti'),
+    url('../fonts/Calligraffitti-Regular.ttf') format('truetype');
+}

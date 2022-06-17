@@ -1,80 +1,75 @@
 import css from './Main.module.css'
-import { ImHome2 } from 'react-icons/im'
-import { BsEnvelopeFill } from 'react-icons/bs'
+import {ImHome2} from 'react-icons/im'
+import {BsEnvelopeFill, BsTelephoneFill, BsLinkedin} from 'react-icons/bs'
+import {FaGithubSquare} from 'react-icons/fa'
+import {IoIosSchool} from 'react-icons/io'
+import {MdWork} from 'react-icons/md'
+import profile from '../../utils/image/micand.png'
+
 
 function Main() {
     return (
         <main className={css.container}>
             <section>
+                <article className={css.imageBox}>
+                    <img src={profile} alt="profile" className={css.image}/>
+                </article>
                 <article className={css.leftBox1}>
-                    <p>Michaela Andreasson</p>
+                    <h2>Kontakta mig</h2>
+                    <p><BsTelephoneFill/> 0768271703</p>
                     <p><ImHome2/> Ryttarvägen 8, 444 41 Stenungsund</p>
-                    <p> <BsEnvelopeFill/> mi-and@outlook.com</p>
+                    <p><BsEnvelopeFill/> mi-and@outlook.com</p>
                     <hr/>
                 </article>
                 <article className={css.leftBox2}>
                     <h2>Om mig</h2>
                     <p>
-                        Efter 11 år inom barnomsorgen så var
-                        det dags att hitta på något annat, men
-                        det har lärt mig att vara flexibel, lyhörd
-                        och problemlösare. Även som tränare
-                        har jag lärt mig att vara strukturerad
-                        och att driva framåt.</p>
+                        Jag är snart färdig utbildad fullstack utvecklare vid Camups Mölndal. Tidigare arbetade
+                        jag inom barnomsorgen men kände att det var dags för något nytt. </p>
 
-                    <h2>Personligt</h2>
-                    <p>
-                        Jag studerar till webbutvecklare i
-                        Mölndal. Jag ser mig själv som ambitiös, jordnära och en nyfiken person. Kan
-                        även leverera en sväng om på isbanan.</p>
-
-                    <h2>Ambitioner</h2>
-                    <p>Mina ambitioner inom IT är att kunna
-                        Sätta ihop tex en hemsida på beställning. Även att jobba på både backend och frontend
-                        intresserar mig.</p>
-
-                    <p>Jag tycker det är lustfyllt att få vara
-                        kreativ i mitt arbete. Jag är positiv till
-                        att testa på nya saker för att utöka min kunskapsbank.
-                    </p>
+                    <p>Jag har skapat fullstack project enligt MERN och har erfarenhet av både frontend och baeckend,
+                        arbetat med databaser i MongoDB och restAPI.</p>
+                    <p>Är intresserad av att fördjupa mina kunskaper i backend och arbeta med cleancod. Som person är
+                        jag noggrann, flexibel, strukturerad, nyfiken på nya saker och har nära till skratt.</p>
                     <hr/>
                 </article>
                 <article className={css.leftBox3}>
                     <h2>Följ mig</h2>
-                    <p>LinkedId</p>
-                    <p>GitHub</p>
+                    <BsLinkedin className={css.icon}/>
+                    <FaGithubSquare className={css.icon}/>
                 </article>
             </section>
             <section>
                 <article className={css.rightBox1}>
-                    <h2>Utbildning</h2>
-                    <p>Augusti 2021 - Oktober 2022
-                        Studerar nu Webbutveckling på Campus Mölndal. Vi lär oss om: HTML5, CSS, JavaScript, UI/UX,
+                    <h2><IoIosSchool/> Utbildning</h2>
+                    <p className={css.education}>Webbutvecklare Campus Mölndal <br/>Augusti 2021 - Oktober 2022 </p>
+                    <p> HTML5, CSS, JavaScript, UI/UX,
                         ReactJS, NodeJS, ExpressJS, MongoDB, MERN, NoSQL, SQL, TypeScript, RestAPI, API, Mongoose,
-                        frontend, backend, fullstack och APL 8 veckor.</p>
+                        fullstack och APL 8 veckor.</p>
+                    <p>Har skapat ett fullstack projekt, en enklare variant av Facebook. Arbetat enligt MERN, med både
+                        JavaScript och TypeScript. Även skapat manuella och automatiska tester med Insomnia/Postman</p>
+                    <p className={css.education}>Augusti 2008 - 2010</p>
+                    <p>Fritidsledarutbildningen, Ljungskile Folkhögskola</p>
 
-                    <p>Augusti 2008 - 2010
-                        Fritidsledarutbildningen, Ljungskile Folkhögskola</p>
+                    <p className={css.education}>Augusti 2005 - 2008</p>
+                    <p>Barn och fritidsprogrammet, Nösnäs Gymnasiet</p>
 
-                    <p>Augusti 2005 - 2008
-                        Barn och fritidsprogrammet, Nösnäs Gymnasiet</p>
-
-                    <p>April 2006
-                        Konståkningstränare, steg1 och steg 2
+                    <p className={css.education}>April 2006</p>
+                    <p>Konståkningstränare, steg1 och steg 2
                     </p>
                     <hr/>
                 </article>
                 <article className={css.rightBox2}>
-                    <h2>ARBETSLIVSERFARENHET</h2>
-                    <p>Barnskötare, Stenungsunds kommun
-                        2011-2020
-                        IT-ansvarig ta hand om frågor kring Unikum, hjälpa kollegor med it-frågor, omsorg, pedagogisk
+                    <h2><MdWork/> Arbetslivserfarenhet</h2>
+                    <p className={css.education}>Barnskötare, Stenungsunds kommun
+                        2011-2021</p>
+                    <p>IT-ansvarig ta hand om frågor kring Unikum, hjälpa kollegor med it-frågor, omsorg, pedagogisk
                         verksamhet, kontakt med föräldrar, soc, kommun.
                     </p>
-                    <p>
+                    <p className={css.education}>
                         Konståkningstränare, Stenungsunds Konståkningsklubb
-                        2004-2013
-                        Tränat barn/ungdomar/vuxna, planera/genomföra shower, pedagogiskt planerande, dialog med
+                        2004-2013</p>
+                    <p>Tränat barn/ungdomar/vuxna, planera/genomföra shower, pedagogiskt planerande, dialog med
                         föräldrar/tränare/åkare. Komponera tävlingsprogram/musik/outfit.
                     </p>
                     <hr/>
