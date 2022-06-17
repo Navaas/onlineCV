@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f7;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat'),
+    url('../fonts/Montserrat-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins'),
+    url('../fonts/Poppins-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: local('Urbanist'),
+    url('../fonts/Urbanist-Light.ttf') format('truetype');
+}
