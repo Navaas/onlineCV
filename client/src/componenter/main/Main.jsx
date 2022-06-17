@@ -35,8 +35,11 @@ function Main() {
                 </article>
                 <article className={css.leftBox3}>
                     <h2>Följ mig</h2>
-                    <BsLinkedin className={css.icon}/>
-                    <FaGithubSquare className={css.icon}/>
+                    <a target="blank" href={"https://www.linkedin.com/in/michaela-andreasson-421824224/"}>
+                        <BsLinkedin className={css.icon}/></a>
+                    <a target="blank"
+                       href={"https://github.com/micand89"}><FaGithubSquare
+                        className={css.icon}/></a>
                 </article>
             </section>
             <section>
@@ -83,7 +86,7 @@ function Main() {
                 </article>
             </section>
         </main>
-    )
+)
 }
 
 export default Main
