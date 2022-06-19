@@ -117,7 +117,7 @@ width: 50%;
 @media only screen and (min-width: 1200px) {
     .container {
         grid-template-columns: 1fr 1fr;
-        width: 2000px;
+        width: 1300px;
         margin: 30px auto;
     }
 
@@ -146,17 +146,17 @@ width: 50%;
     }
 
     p {
-        font-size: 30px;
+        font-size: 22px;
     }
 
     h2 {
-        font-size: 30px;
+        font-size: 22px;
     }
 
     .education {
         font-weight: bold;
         font-family: SplineSansMono, sans-serif;
-        font-size: 26px;
+        font-size: 20px;
     }
 
     .icon {

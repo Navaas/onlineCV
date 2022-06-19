@@ -35,13 +35,17 @@
 }
 
 @media only screen and (min-width: 1200px) {
+    .header {
+        height: 25vh;
+
+    }
     .headerText {
-        font-size: 80px;
+        font-size: 60px;
         padding-top: 50px;
     }
 
     .smallHeaderText {
         text-align: center;
-        font-size: 54px;
+        font-size: 40px;
     }
 }
