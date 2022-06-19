@@ -16,7 +16,7 @@ function Main() {
                 </article>
                 <article className={css.leftBox1}>
                     <h2>Kontakta mig</h2>
-                    <p><BsTelephoneFill/> 0768271703</p>
+                    <p><BsTelephoneFill/> 0768721703</p>
                     <p><ImHome2/> Ryttarvägen 8, 444 41 Stenungsund</p>
                     <p><BsEnvelopeFill/> mi-and@outlook.com</p>
                     <hr/>
@@ -51,6 +51,8 @@ function Main() {
                         fullstack och APL 8 veckor.</p>
                     <p>Har skapat ett fullstack projekt, en enklare variant av Facebook. Arbetat enligt MERN, med både
                         JavaScript och TypeScript. Även skapat manuella och automatiska tester med Insomnia/Postman</p>
+                    <p>Har skapat en todo-lista enligt CRUD och kopplat på en databas med MongoDB, en backend och en frontend.</p>
+                    <p>Jag har även skapat en webbshop med genomtänkt UX/UI och kopplat på Javascript till en kundkorg.</p>
                     <p className={css.education}>Augusti 2008 - 2010</p>
                     <p>Fritidsledarutbildningen, Ljungskile Folkhögskola</p>
 
