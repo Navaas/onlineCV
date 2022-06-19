@@ -1,6 +1,6 @@
 import css from './Main.module.css'
 import {ImHome2} from 'react-icons/im'
-import {BsEnvelopeFill, BsTelephoneFill, BsLinkedin} from 'react-icons/bs'
+import {BsEnvelopeFill, BsLinkedin} from 'react-icons/bs'
 import {FaGithubSquare} from 'react-icons/fa'
 import {IoIosSchool} from 'react-icons/io'
 import {MdWork} from 'react-icons/md'
@@ -16,7 +16,6 @@ function Main() {
                 </article>
                 <article className={css.leftBox1}>
                     <h2>Kontakta mig</h2>
-                    <p><BsTelephoneFill/> 0768721703</p>
                     <p><ImHome2/> Ryttarvägen 8, 444 41 Stenungsund</p>
                     <p><BsEnvelopeFill/> mi-and@outlook.com</p>
                     <hr/>
